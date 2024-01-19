@@ -1,11 +1,13 @@
 <template>
-  <v-app>
-    <v-main>
-      <HelloWorld />
-    </v-main>
-  </v-app>
+  <head>
+    <title>Sample Client</title>
+  </head>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
-<script setup lang="ts">
-  //
+<script setup>
 </script>
+<style>
+</style>
